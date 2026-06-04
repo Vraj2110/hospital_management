@@ -20,5 +20,5 @@ public abstract class Person implements Displayable {
         this.name = name;
     }
 
-    public abstract void Displayable();
+    public abstract void display();
 }
