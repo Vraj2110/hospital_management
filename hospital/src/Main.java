@@ -17,7 +17,7 @@ public class Main {
             switch (choice) {
                 case 1:
                     System.out.println("Enter ID Name Age: ");
-                    hm.addPatient(new Patient(sc.nextLine(), sc.nextInt(), sc.nextInt()));
+                    hm.addPatient(new Patient(sc.next(), sc.nextInt(), sc.nextInt()));
                     break;
 
                 case 2:
